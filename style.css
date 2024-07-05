@@ -1,0 +1,51 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.container{
+    text-align: center;
+    color: white;
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(#0000004d,#0000004d), url(Assests/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.content{
+    width: 50%;
+}
+#y{
+    font-weight: 900;
+    color: rgb(94, 153, 241);
+    font-size: 50px;
+}
+p{
+    line-height: 1.5;
+    padding: 15px;
+    font-size: 15px;
+}
+a{
+    display: inline-block;
+    padding:5px 10px ;
+    background-color: #050c9c;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+.blank{
+    width: 100%;
+    min-height: 60vh;
+    background-color: #333;
+}
+    
+
+
